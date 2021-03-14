@@ -13,4 +13,4 @@ file_name=$(basename "$file_path")
 file_name=${file_name/.sh/}
 cp "$file_path" "/usr/local/bin/$file_name"
 
-printf "%s\n" "Shipping complete 🌊"
+printf "%s\n" "Shipping complete 🛥"
