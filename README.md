@@ -1,4 +1,4 @@
-# Ship 🛥
+# Ship
 
 Transfer files with ease
 
