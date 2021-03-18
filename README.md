@@ -7,7 +7,7 @@ Transfer files with ease
 ```console
 $ ship
 ship v0.1.0
-Transfer files with ease
+Transfer shell scripts with ease
 
 Usage: ship <file>
 ```
