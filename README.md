@@ -10,7 +10,7 @@ $ ship
 Transfer shell scripts with ease
 
 Usage:
-  ship <files>...
+  ship <file>...
 
 Options:
   -h, --help                 Get help

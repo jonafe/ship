@@ -7,7 +7,7 @@ NC=$'\e[0m'
 print_usage() {
     printf "\nTransfer shell scripts with ease\n\n"
     printf "Usage:\n"
-    printf "  ship <files>...\n\n"
+    printf "  ship <file>...\n\n"
     printf "Options:\n"
     printf "  -h, --help                 Get help\n"
     printf "  -v, --version              Print version\n\n"
