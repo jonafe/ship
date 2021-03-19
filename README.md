@@ -1,15 +1,25 @@
 # Ship
 
-Transfer files with ease
+Transfer shell scripts with ease
 
 ## Usage
 
 ```console
 $ ship
-ship v0.1.0
+
 Transfer shell scripts with ease
 
-Usage: ship <file>
+Usage:
+  ship <files>...
+
+Options
+  -h, --help                 Get help
+  -v, --version              Print version
+
+Examples
+  ship script.sh             Transfer 'script.sh'
+  ship script.sh script2.sh  Transfer 'script.sh' and 'script2.sh'
+  ship .                     Transfer all scripts (*.sh) in current working directory
 ```
 
 ## Installation
