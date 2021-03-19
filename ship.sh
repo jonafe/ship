@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+VERSION="v0.2.0"
+RED=$'\e[1;31m'
+NC=$'\e[0m'
+
 print_usage() {
     printf "\nTransfer shell scripts with ease\n\n"
     printf "Usage:\n"
@@ -15,7 +19,7 @@ print_usage() {
 }
 
 print_version() {
-  echo "ship v0.1.0"
+  echo "ship $VERSION"
   exit 0
 }
 
@@ -46,12 +50,11 @@ while [ -n "$1" ]; do
       done
       ;;
     *.sh)
-      if [ -f "$1" ]; then
-        copy_file "$1"
-      else
-        echo "$0: '$1' does not exist"
+      if ! [ -f "$1" ]; then
+        echo "${RED}Error:${NC} '$1' does not exist"
         exit 1
       fi
+      copy_file "$1"
       ;;
     *)
       print_usage
