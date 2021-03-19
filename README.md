@@ -25,5 +25,5 @@ Examples:
 ## Installation
 
 ```console
-curl -sS https://raw.githubusercontent.com/jonafe/ship/HEAD/ship.sh > /usr/local/bin/ship && chmod 755 /usr/local/bin/ship
+curl -sSL https://github.com/jonafe/ship/releases/download/v0.2.0/ship.sh > /usr/local/bin/ship && chmod 755 /usr/local/bin/ship
 ```
