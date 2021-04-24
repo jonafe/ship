@@ -1,10 +1,10 @@
 # Ship
 
-Transfer shell scripts with ease
+Transfer shell scripts with ease.
 
 ## Usage
 
-```console
+```shell
 $ ship
 
 Transfer shell scripts with ease
@@ -24,6 +24,6 @@ Examples:
 
 ## Installation
 
-```console
-curl -sSL https://github.com/jonafe/ship/releases/download/v0.2.0/ship.sh > /usr/local/bin/ship && chmod 755 /usr/local/bin/ship
+```shell
+$ curl -sSL https://github.com/jonafe/ship/releases/download/v0.2.0/ship.sh > /usr/local/bin/ship && chmod 755 /usr/local/bin/ship
 ```
